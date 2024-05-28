@@ -6,10 +6,10 @@ GO
 USE RDBMS
 GO
 
---After successfully converting given entity-relationship diagram into a relational model.
---Producer (NumP, FirstName, LastName, Region)
---Wine (NumW, Category, Year, Degree)
--- Harvest (NumP, NumW, Quantity)
+--After successfully converting the given entity-relationship diagram into a relational model.
+--Producer (#NumP, FirstName, LastName, Region)
+--Wine (#NumW, Category, Year, Degree)
+-- Harvest (#NumP, #NumW, Quantity)
 
 --Implement the relational model using SQL.
 
